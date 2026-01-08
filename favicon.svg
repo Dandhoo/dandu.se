@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="18" fill="#003A8F"/>
+  <text x="50" y="62"
+        text-anchor="middle"
+        font-size="48"
+        font-family="Inter, Arial, sans-serif"
+        fill="white"
+        font-weight="600">
+    ND
+  </text>
+</svg>
