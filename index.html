@@ -2,135 +2,160 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Dr Nicolae Dandu – Neurologist</title>
-  <meta name="description" content="Dr Nicolae Dandu, MD. Specialist in Neurology with expertise in multiple sclerosis and neuroimmunology.">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="canonical" href="https://dandu.se" />
+
+  <title>Dr Nicolae Dandu, MD – Specialist in Neurology</title>
+  <meta name="description" content="Dr Nicolae Dandu, MD. Specialist in Neurology with focus on multiple sclerosis and neuroimmunology. Sweden." />
   <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://dandu.se/" />
 
-  <!-- Social previews (minimal, no image needed) -->
+  <!-- Social previews -->
   <meta property="og:title" content="Dr Nicolae Dandu, MD" />
-  <meta property="og:description" content="Specialist in Neurology · Multiple Sclerosis & Neuroimmunology" />
-  <meta property="og:url" content="https://dandu.se" />
+  <meta property="og:description" content="Specialist in Neurology · Multiple Sclerosis & Neuroimmunology · Sweden" />
+  <meta property="og:url" content="https://dandu.se/" />
   <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
 
-  <!-- Inter font (LiU-like academic sans) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Inter font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <!-- Structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Physician",
-    "name": "Dr Nicolae Dandu",
+    "name": "Nicolae Dandu",
+    "honorificPrefix": "Dr",
+    "honorificSuffix": "MD",
     "jobTitle": "Specialist in Neurology",
     "medicalSpecialty": "Neurology",
-    "url": "https://dandu.se"
+    "url": "https://dandu.se/",
+    "email": "mailto:contact@dandu.se",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "SE"
+    },
+    "sameAs": [
+      "https://scholar.google.com/citations?user=-s48K_4AAAAJ&hl=en"
+    ]
   }
   </script>
 
   <style>
-    :root {
-      /* LiU-inspired palette */
-      --liu-blue: #003A8F;
-      --liu-blue-light: #1E40AF;
-      --text: #111827;
-      --muted: #4B5563;
-      --border: #E5E7EB;
-      --bg: #FFFFFF;
-      --panel: #F9FAFB;
-      --max: 820px;
+    :root{
+      /* LiU-ish: disciplined blue + academic greys */
+      --liu-blue:#003A8F;
+      --liu-blue-2:#1E40AF;
+      --text:#111827;
+      --muted:#4B5563;
+      --border:#E5E7EB;
+      --panel:#F9FAFB;
+      --bg:#FFFFFF;
+      --max:860px;
+      --radius:14px;
     }
 
-    html, body { background: var(--bg); }
-
-    body {
-      margin: 0;
-      font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-                   Roboto, "Helvetica Neue", Arial, sans-serif;
-      color: var(--text);
-      line-height: 1.6;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      text-rendering: optimizeLegibility;
+    html,body{background:var(--bg);}
+    body{
+      margin:0;
+      font-family:"Inter",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      color:var(--text);
+      line-height:1.65;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      text-rendering:optimizeLegibility;
     }
 
-    .wrap {
-      max-width: var(--max);
-      margin: 56px auto;
-      padding: 0 18px;
+    .wrap{
+      max-width:var(--max);
+      margin:56px auto;
+      padding:0 18px;
     }
 
-    header {
-      border-left: 6px solid var(--liu-blue);
-      padding-left: 16px;
-      margin-bottom: 28px;
+    header{
+      border-left:6px solid var(--liu-blue);
+      padding-left:16px;
+      margin-bottom:26px;
     }
 
-    h1 {
-      font-size: 40px;
-      line-height: 1.15;
-      margin: 0 0 10px 0;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      color: var(--liu-blue);
+    h1{
+      margin:0 0 10px 0;
+      font-size:42px;
+      line-height:1.12;
+      font-weight:700;
+      letter-spacing:-0.02em;
+      color:var(--liu-blue);
     }
 
-    .role {
-      margin: 0;
-      font-size: 18px;
-      font-weight: 500;
-      color: var(--muted);
+    .role{
+      margin:0;
+      font-size:18px;
+      font-weight:500;
+      color:var(--muted);
+    }
+    .role strong{
+      color:var(--text);
+      font-weight:600;
     }
 
-    .role strong {
-      color: var(--text);
-      font-weight: 600;
+    main p{
+      margin:0 0 14px 0;
+      font-size:16px;
     }
 
-    main p {
-      font-size: 16px;
-      margin: 0 0 14px 0;
+    .context{
+      margin-top:10px;
+      color:var(--muted);
+      font-size:15px;
     }
 
-    .context {
-      color: var(--muted);
-      margin-top: 10px;
-      font-size: 15px;
+    .meta{
+      margin-top:22px;
+      padding:18px 18px;
+      background:var(--panel);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
     }
 
-    .meta {
-      margin-top: 22px;
-      padding: 16px 18px;
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 12px;
+    .meta p{
+      margin:8px 0;
+      font-size:15px;
     }
 
-    .meta p {
-      margin: 6px 0;
-      font-size: 15px;
+    a{
+      color:var(--liu-blue-2);
+      text-decoration:none;
+      font-weight:500;
+    }
+    a:hover{
+      text-decoration:underline;
+      text-underline-offset:3px;
     }
 
-    .meta a {
-      color: var(--liu-blue-light);
-      text-decoration: none;
-      font-weight: 500;
+    .fine{
+      margin-top:6px;
+      color:var(--muted);
+      font-size:13px;
     }
 
-    .meta a:hover {
-      text-decoration: underline;
-      text-underline-offset: 3px;
+    footer{
+      margin-top:40px;
+      padding-top:16px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:14px;
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
     }
 
-    footer {
-      margin-top: 40px;
-      padding-top: 16px;
-      border-top: 1px solid var(--border);
-      font-size: 14px;
-      color: var(--muted);
+    @media (max-width:480px){
+      .wrap{margin:44px auto;}
+      h1{font-size:36px;}
+      .role{font-size:17px;}
     }
   </style>
 </head>
@@ -140,7 +165,7 @@
     <header>
       <h1>Dr Nicolae Dandu, MD</h1>
       <p class="role">
-        <strong>Specialist in Neurology</strong> · <span style="color: var(--muted);">Multiple Sclerosis &amp; Neuroimmunology</span>
+        <strong>Specialist in Neurology</strong> · Multiple Sclerosis &amp; Neuroimmunology
       </p>
     </header>
 
@@ -154,12 +179,19 @@
 
       <div class="meta">
         <p><strong>Email:</strong> <a href="mailto:contact@dandu.se">contact@dandu.se</a></p>
-        <p><strong>Website:</strong> <a href="https://dandu.se">dandu.se</a></p>
+        <p><strong>Website:</strong> <a href="https://dandu.se/">dandu.se</a></p>
+        <p><strong>Google Scholar:</strong>
+          <a href="https://scholar.google.com/citations?user=-s48K_4AAAAJ&hl=en" target="_blank" rel="noopener">
+            scholar.google.com
+          </a>
+        </p>
+        <p class="fine">For clinical matters, use email only. No appointment booking on this site.</p>
       </div>
     </main>
 
     <footer>
-      © <span id="year"></span> Nicolae Dandu
+      <div>© <span id="year"></span> Nicolae Dandu</div>
+      <div><a href="https://dandu.se/">dandu.se</a></div>
     </footer>
   </div>
 
